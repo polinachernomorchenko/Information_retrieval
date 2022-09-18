@@ -33,7 +33,7 @@ def search(vec, tfidf_data, friends_data):  # поиск
     
 
 def main(query, friends_data):
-    tfidf_data = vectorizer.fit_transform(friends_data['text'])  # не вижу смысла делать функцию для одной строчки
+    tfidf_data = vectorizer.fit_transform(friends_data['text'])  
     vec = query_transformer(query, vectorizer)
     res = search(vec, tfidf_data, friends_data)
     print('Наиболее подходящий документ: ', res)
