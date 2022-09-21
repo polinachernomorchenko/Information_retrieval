@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 from sklearn.feature_extraction.text import TfidfVectorizer
-from IS_HW1_PREPROCESSING import preprocesser
+from is_hw1_preprocessing import preprocesser
 from scipy.spatial.distance import cdist
 
 
