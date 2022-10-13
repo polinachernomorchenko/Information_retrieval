@@ -13,8 +13,8 @@ query = 'Как перестать страдать по бывшему?'
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--json_dir', type=Path, required=True, help='Path to dir with json')
-    parser.add_argument('--corpus_dir', type=Path, required=True, help='Path to dir with vec corpus')
+    parser.add_argument('-json_dir', type=Path, required=True, help='Path to dir with json')
+    parser.add_argument('-corpus_dir', type=Path, required=True, help='Path to dir with vec corpus')
     args = parser.parse_args()
     return args
 
