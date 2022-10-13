@@ -8,11 +8,11 @@ from pathlib import Path
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--bert_q_dir', type=Path, required=True, help='Path to dir with bert-questions')
-    parser.add_argument('--bert_a_dir', type=Path, required=True, help='Path to dir with bert-answers')
-    parser.add_argument('--vec_dir', type=Path, required=True, help='Path to dir with counvectorizer')
-    parser.add_argument('--bm_q_dir', type=Path, required=True, help='Path to dir lemmatized questions for bm')
-    parser.add_argument('--bm_a_dir', type=Path, required=True, help='Path to dir with bm answers matrix')
+    parser.add_argument('-bert_q_dir', type=Path, required=True, help='Path to dir with bert-questions')
+    parser.add_argument('-bert_a_dir', type=Path, required=True, help='Path to dir with bert-answers')
+    parser.add_argument('-vec_dir', type=Path, required=True, help='Path to dir with counvectorizer')
+    parser.add_argument('-bm_q_dir', type=Path, required=True, help='Path to dir lemmatized questions for bm')
+    parser.add_argument('-bm_a_dir', type=Path, required=True, help='Path to dir with bm answers matrix')
     arg = parser.parse_args()
     return arg
 
