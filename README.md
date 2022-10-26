@@ -84,4 +84,6 @@
 
 Комментарий: Поиск ведётся по вопросам, в выдаче выводятся и вопросы, и ответы. Все релевантные файлы лежат по той же ссылке, что и для HW4
 
+**Картиночьбка**
+
 ![image](https://sun9-east.userapi.com/sun9-26/s/v1/ig2/gLIjSXrU7oZqne_wG50meKfb-zqfGMkjkfdR9bsYQDqht5lCbiGrRezLBkJ-qU_KiU6k5nYez7YH6xUO2ApQm_C7.jpg?size=909x437&quality=96&type=album)
